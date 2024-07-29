@@ -1,0 +1,26 @@
+2024-07-29 12:58:26.682 [main] INFO  util.ReportLogger - Loaded config file src/test/resources/config/ecubeConfig.properties
+2024-07-29 12:58:26.686 [main] INFO  util.ReportLogger - ----------------------- Test Automation Started-----------------------
+2024-07-29 12:58:27.251 [main] INFO  util.ReportLogger - ----------------------- TEST STARTED -----------------------
+2024-07-29 12:58:27.251 [main] INFO  util.ReportLogger - STARTING Scenario ==> Verify Member Creation functionality
+2024-07-29 12:58:27.251 [main] INFO  util.ReportLogger - ------------------------------------------------------------
+2024-07-29 12:58:27.262 [main] INFO  util.ReportLogger - Step 0: User open Ecube login page
+2024-07-29 12:58:27.269 [main] INFO  util.ReportLogger - OS: windows
+2024-07-29 12:58:27.289 [main] INFO  util.ReportLogger - Chrome download folder: D:\ECubeCICD_GIT\EcubeAutomation_GIT_CICD\downloads
+2024-07-29 12:58:34.713 [main] INFO  util.ReportLogger - Step 1: User Login with valid credentials
+2024-07-29 12:58:35.337 [main] INFO  util.ReportLogger - Step 2: User should be redirected to the home page
+2024-07-29 12:58:35.882 [main] INFO  util.ReportLogger - User is on home page!
+2024-07-29 12:58:35.888 [main] INFO  util.ReportLogger - Step 3: User selects "Member" from side menu
+2024-07-29 12:58:37.052 [main] INFO  util.ReportLogger - Step 4: User clicks on plus icon
+2024-07-29 12:58:39.355 [main] INFO  util.ReportLogger - Step 5: User generate and fill the data into the General Tab In Member Module
+2024-07-29 12:58:47.178 [main] INFO  util.ReportLogger - Step 6: User generate and fill the data into the Personal Tab In Member Module
+2024-07-29 12:58:49.904 [main] INFO  util.ReportLogger - Step 7: User generate and fill the data into the Contact Tab In Member Module
+2024-07-29 12:58:51.230 [main] INFO  util.ReportLogger - Step 8: User generate and fill the data into the Sub Member Tab In Member Module
+2024-07-29 12:58:56.818 [main] INFO  util.ReportLogger - Step 9: User generate and fill the data into the Membership Tab In Member Module
+2024-07-29 12:59:03.376 [main] INFO  util.ReportLogger - Step 10: User generate and enter Member code
+2024-07-29 12:59:03.382 [main] INFO  util.ReportLogger - Generated Member code is: 5721
+2024-07-29 12:59:04.495 [main] INFO  util.ReportLogger - Step 11: User Clicks on Save button
+2024-07-29 12:59:56.698 [main] INFO  util.ReportLogger - Successfully created member!
+2024-07-29 12:59:56.706 [main] INFO  util.ReportLogger - ---------------------- TEST COMPLETED ----------------------
+2024-07-29 12:59:56.711 [main] INFO  util.ReportLogger - PASSED ==> Verify Member Creation functionality
+2024-07-29 12:59:56.712 [main] INFO  util.ReportLogger - ------------------------------------------------------------
+2024-07-29 12:59:57.218 [main] INFO  util.ReportLogger - ----------------------- Test Execution Completed!-----------------------
