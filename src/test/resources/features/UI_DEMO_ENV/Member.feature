@@ -27,6 +27,7 @@ Feature: Create New Member and search feature
     And User generate and fill the data into the Contact Tab In Member Module
     And User generate and fill the data into the Sub Member Tab In Member Module
     And User generate and fill the data into the Membership Tab In Member Module
+    And User generate and enter Member code
     And User Clicks on Save button
 
   @E2E @ECUBEUI @TestCase-M002
