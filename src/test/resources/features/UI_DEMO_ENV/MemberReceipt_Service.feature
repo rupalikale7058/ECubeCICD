@@ -228,7 +228,7 @@ Feature: Test Member Receipt_Service feature
     And User click on search icon
     And User search with Date
       | PaymentDate |
-      | 03/07/2024  |
+      | 29/07/2024  |
     And User selects records to delete
     And User click on Delete icon
     Then User confirm delete records

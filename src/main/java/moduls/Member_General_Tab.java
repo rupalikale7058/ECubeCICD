@@ -32,8 +32,13 @@ public class Member_General_Tab {
         return faker.address().streetAddress();
     }
 
-    public String getZipCode() {
+    /*public String getZipCode() {
         return faker.address().zipCode();
+    }*/
+    public String getZipCode() {
+        // Generate a 6-digit random number
+        int zipCode = faker.number().numberBetween(100000, 999999);
+        return String.valueOf(zipCode);
     }
 
     public String getArea() {
