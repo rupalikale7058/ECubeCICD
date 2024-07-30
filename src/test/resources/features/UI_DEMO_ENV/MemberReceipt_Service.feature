@@ -1,6 +1,6 @@
 Feature: Test Member Receipt_Service feature
 
-  @E2E @ECUBEUI @TestCase-ROO009
+  @E2E @ECUBEUI @TestCase-ROO009 @REG
   Scenario: Verify Member Receipt generated functionality for Add and Save the below details
     Given User open Ecube login page
     When User Login with valid credentials
@@ -23,7 +23,7 @@ Feature: Test Member Receipt_Service feature
     Then Member Receipt generated successfully
     And User validate the Receipt details
 
-  @E2E @ECUBEUI @TestCase-ROO006
+  @E2E @ECUBEUI @TestCase-ROO006 @REG
   Scenario: Verify Member Receipt generated functionality for Payment type and credit card
     Given User open Ecube login page
     When User Login with valid credentials
@@ -46,7 +46,7 @@ Feature: Test Member Receipt_Service feature
     Then Member Receipt generated successfully
     And User validate the Receipt details when payment type is credit card
 
-  @E2E @ECUBEUI @TestCase-ROO029
+  @E2E @ECUBEUI @TestCase-ROO029 @REG
   Scenario: Verify Member Receipt generated functionality for Payment type Cash
     Given User open Ecube login page
     When User Login with valid credentials
@@ -64,7 +64,7 @@ Feature: Test Member Receipt_Service feature
       | 89999       |
     And User click on Save button
 
-  @E2E @ECUBEUI @TestCase-ROO0091
+  @E2E @ECUBEUI @TestCase-ROO0091 @REG
   Scenario: Verify Member Receipt generated functionality for adding and Save the below details
     Given User open Ecube login page
     When User Login with valid credentials
