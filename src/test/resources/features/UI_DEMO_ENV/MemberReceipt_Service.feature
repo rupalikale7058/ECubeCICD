@@ -10,6 +10,9 @@ Feature: Test Member Receipt_Service feature
     And User enters Member Code
       | MemberCode            |
       | 0/9988 (KALE RUPALI ) |
+    And Check total amount and available credit after adding advance amount
+      | advanceAmount |
+      | 1000          |
     And User selects Payment Type
       | PaymentType       |
       | Cheque (Yes Bank) |
