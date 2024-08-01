@@ -7,7 +7,7 @@ import util.ReportLogger;
 
 @CucumberOptions(features = "src/test/resources/features", glue = {"stepdefinations",
         "hooks"}, publish = true, plugin = {"progress", "html:target/cucumber-reports/cucumber-report.html",
-        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, tags = "@REG")
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, tags = "@E2E")
 
 public class TestRunner extends AbstractTestNGCucumberTests {
     ReportLogger reportLogger = ReportLogger.getInstance();
